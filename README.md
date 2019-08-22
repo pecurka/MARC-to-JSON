@@ -21,6 +21,16 @@ The program expects the following data to run:
 :main /path/to/marc_file.txt /path/to/output_file.json
 ```
 
+# Variables
+
+If you need to introduce a new type of leader starting string you can add a new `string` to the `leaderStartStrings` array.
+
+To add a new field identification `char` append the `fieldIdChars` array.
+
+To add a new subfield starting separator `char` append the `subfieldStartChars` array.
+
+All are located at the top of the file.
+
 # Example
 
 Parsing the following MARC 21 file:
